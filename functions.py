@@ -1,13 +1,19 @@
 import random as ran
 
 def battlefield():
-    batt = []
-    row = []
-    i=10
-    while i < 10:
-        i-=1
-        row.append(0)
-    return batt
+    rows = 10
+    col = 10
+    matrix=[]
+    row = 0
+    while row < rows:
+        new_row = [0] * col
+        matrix.append(new_row)
+        row += 1
+    for row in matrix:
+        print(row)
+    
 
 
-print('kalel')
+
+
+battlefield()
