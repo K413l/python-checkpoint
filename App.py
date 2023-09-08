@@ -1,4 +1,4 @@
 import functions
-import random 
+import random as rand
 
-print('hello')
+functions.battlefield()
